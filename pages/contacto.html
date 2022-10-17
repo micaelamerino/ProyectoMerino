@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refugio Peluditos del Amor</title>
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <link rel="shortcut icon" href="../assets/img/faviconrefugio2.svg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Margarine&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Varta:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+     <!--Menú de navegación-->
+     <header class="hero container-fluid">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid contenedor-menu">
+                <a class="navbar-brand" href="../index.html"><img src="../assets/img/logo.svg" alt="Logo del refugio, corazón rosa con huella de animal en su interior."></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav gap-5">
+                        <li class="nav-item">
+                            <a class="nav-link" href="..//index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/colaborar.html">Colaborar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/adoptar.html">Adoptar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/noticias.html">Noticias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="contacto container text-center mt-3">
+        <h2 class="subtitulo">¡Queremos conocerte!</h2>
+        <p>Si tenés dudas o algún comentario para compartir te invitamos
+            a completar el siguiente formulario:</p>
+        <form action="" method="post" class="container d-flex flex-column m-auto justify-content-center text-start">
+            <div class="input d-flex flex-column">
+                <label for="user">Nombre</label>
+                <input type="text" name="name" id="user">
+            </div>
+            <div class="input d-flex flex-column">
+                <label for="contact">E-mail</label>
+                <input type="email" name="contact" id="contact">
+            </div>
+            <div class="input d-flex flex-column">
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+            </div>
+            <div class="btn-contacto">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+        <div class="mapa d-flex flex-column align-items-center mt-2">
+            <h3 class="subtitulo">UBICACIÓN</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.901960074225!2d-64.18808677245059!3d-31.416827143922863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329902eb0b2faf%3A0x4382bb478dc6e982!2sPlaza%20San%20Mart%C3%ADn!5e0!3m2!1ses-419!2sar!4v1662919543014!5m2!1ses-419!2sar"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <!--Pie de página, redes sociales-->
+    <footer class="footer container-fluid text-center d-flex flex-column gap-2 mt-2 justify-self-center">
+        <h4 class="subtitulo m-2">Seguinos en nuestras redes para más novedades!</h4>
+        <div class="iconos-footer d-flex flex-row justify-content-center gap-5">
+            <a href="https://www.instagram.com/" target="_blank"><img src="../assets/img/instagram.png" alt="Logo de la red social instagram"></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="../assets/img/youtube.png" alt="Logo de la red social youtube"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="../assets/img/facebook.png" alt="Logo de la red social facebook"></a>
+        </div>
+        <p class="m-0">&copy;Copyright, Refugio Peluditos del Amor, 2022</p>
+</footer>
+<script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+.nosotros-card{
+    background: $rosa;
+    border: 3px solid $cremita;
+    border-radius: 30px;
+    padding: 50px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5)
+}
+.textos-card{
+    width: 75%;
+    & p{
+        color: #fff;
+    }
+}
+.img-card{
+    width: 250px;
+    & img{
+        width: 100%;
+        border-radius: 30px;
+    }
+}

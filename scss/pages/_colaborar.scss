@@ -1,0 +1,30 @@
+.estilo-card{
+    background: $cremita;
+}
+.img-colaborar{
+    width: 200px;
+}
+.lista-mp li{
+    font-family: $fontmain;
+    font-size: 1.5rem;
+    padding: 10px 0;
+    >a{
+        color: #fff;
+        background: $celeste;
+        border-radius: 10px;
+        padding: 5px;
+        font-family: $fontmain;
+        font-size: 1.5rem;
+    }
+}
+.lista-mp a{
+    text-decoration: none;
+}
+.link-colaborar{
+    color: $rosa;
+    font-weight: 500;
+    &:hover{
+        color: $celeste;
+        transition: .5s;
+    }
+}

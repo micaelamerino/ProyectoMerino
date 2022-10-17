@@ -1,0 +1,51 @@
+.contenedor-catalogo{
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    @include mobile-lg{
+        width: 30%;
+    }
+}
+.img-animales{
+    width: 100%;
+    height: 300px;
+}
+.img-animales img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-bottom: 10px;
+}
+.overlay{
+    position: absolute;
+    background: rgba(240, 236, 134, .5);
+    bottom: 0;
+    left: 0%;
+    height: 0;
+    width: 100%;
+    overflow: hidden;
+    transition: .5s ease;
+}
+.overlay a{
+    color: $rosa;
+    font-family: $fontmain;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 100;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    &:hover{
+        color: $celeste;
+    }
+}
+.contenedor-catalogo:hover .overlay{
+    height: 100%;
+    cursor: pointer;
+}
