@@ -16,6 +16,11 @@
         font-family: $fontmain;
         font-size: 1.5rem;
     }
+    >a:hover{
+        color: $celeste;
+        background-color: #fff;
+        transition: .5s;
+    }
 }
 .lista-mp a{
     text-decoration: none;

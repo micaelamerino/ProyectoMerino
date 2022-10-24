@@ -77,6 +77,12 @@ p, li {
 .noticias-home .card img {
   border: 2px solid #6BB7E9;
 }
+@media (min-width: 960px) {
+  .noticias-home {
+    display: flex;
+    align-items: center;
+  }
+}
 
 .btn-noticias {
   border: 2px solid #6BB7E9;
@@ -93,7 +99,9 @@ p, li {
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
 }
 .btn-noticias:hover {
-  color: #6BB7E9;
+  color: #fff;
+  background-color: #6BB7E9;
+  transition: 0.5s;
 }
 
 .nosotros-card {
@@ -139,6 +147,11 @@ p, li {
   padding: 5px;
   font-family: "Margarine", cursive;
   font-size: 1.5rem;
+}
+.lista-mp li > a:hover {
+  color: #6BB7E9;
+  background-color: #fff;
+  transition: 0.5s;
 }
 
 .lista-mp a {
@@ -206,11 +219,19 @@ p, li {
 }
 .overlay a:hover {
   color: #6BB7E9;
+  transition: 0.5s;
 }
 
 .contenedor-catalogo:hover .overlay {
   height: 100%;
   cursor: pointer;
+}
+
+@media (min-width: 960px) {
+  .contacto {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .contacto form {

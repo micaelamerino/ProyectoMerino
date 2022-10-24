@@ -43,6 +43,7 @@
     transform: translate(-50%, -50%);
     &:hover{
         color: $celeste;
+        transition: .5s;
     }
 }
 .contenedor-catalogo:hover .overlay{

@@ -1,3 +1,9 @@
+.contacto{
+    @include mobile-xl{
+        display: flex;
+        align-items: center;
+    }
+}
 .contacto form{
     width: 300px;
 }
